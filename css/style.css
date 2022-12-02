@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* so that a box inside another box be inside the box*/
+} 
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.screen-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.cal-container {
+    /* margin: auto;   */
+    background-color: bisque;
+    width: 700px;
+    height: 550px;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+}
+.months{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightsalmon;
+    width: 100%;
+   font-size: 25px;
+    padding: 30px 30px;
+    text-align: center;
+    color: white;  
+}
+.weekends {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px 5px;
+    color: wheat;
+    background-color: greenyellow;
+}
+.weekends div {
+    width: 14.28%;
+    text-align: center;
+    font-size: 25px;
+}
+ .days {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+  
+
+} 
+.days div {
+    width: 14%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 0.28%;
+    padding: 13px 0px;
+    font-weight: 900;
+    transition: all .1s;
+    font-size:25px;
+}
+
+.days div:hover{
+    background-color: rgba(97, 97, 100,0.5);
+    color: wheat;
+    cursor: pointer;
+}
+.pre-arrow,.next-arrow {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(41, 40, 42, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+.pre-arrow:hover,
+.next-arrow:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+}
+.today{
+    background-color: rgb(17, 183, 67);
+    color: beige;
+    margin-top: 4px;
+}
+.preDateOf_1{
+    color:white;
+
+   margin-top: 4px;
+    border-radius: 70%;
+    background-color: rgb(114, 115, 114);
+
+}
