@@ -69,6 +69,6 @@ while(i <= endDate.getDate()){  // i running from first date to last date
 
  timer = setTimeout(() => {
    document.getElementById("currTime").innerHTML = currDate.toLocaleTimeString()
- } ,1000)
+ } ,10)
    
  

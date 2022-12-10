@@ -112,14 +112,14 @@ body{
         background-color: rgb(197, 127, 255);
     }
     
-.cal-container {
+    .cal-container {
     /* margin: auto;   */
     background-color: bisque;
     width: 80vw;
     height: 55vh;
     box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
 }
-.months{
+   .months{
     
     background-color: rgb(11, 4, 2);
     width: 100%;
