@@ -53,7 +53,7 @@ while(i <= endDate.getDate()){  // i running from first date to last date
 }
 
  //arrow handler
- function moveDate(para){
+ function moveDate(para){   //parameter==prev or next
    if(para == 'prev'){
       currDate.setMonth(currDate.getMonth() - 1);
 
@@ -67,8 +67,9 @@ while(i <= endDate.getDate()){  // i running from first date to last date
 
  //timer
 
- timer = setTimeout(() => {
-   document.getElementById("currTime").innerHTML = currDate.toLocaleTimeString()
- } ,10)
+ timer = setInterval(() => {
+   //console.log("++",new Date().toLocaleTimeString())
+   document.getElementById("currTime").innerHTML = new Date().toLocaleTimeString()
+ } ,1000)
    
  

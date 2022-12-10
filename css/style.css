@@ -22,14 +22,15 @@ body{
     /* margin: auto;   */
     background-color: bisque;
     width: 700px;
-    height: 590px;
+    height: 605px;
     box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
 }
 .months{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightsalmon;
+  
+    background-color: chartreuse;
     width: 100%;
    font-size: 25px;
     padding: 30px 30px;
@@ -40,8 +41,9 @@ body{
     display: flex;
     /* justify-content: space-between; */
     padding: 10px 5px;
-    color: wheat;
+    color: white;
     background-color: greenyellow;
+   
 }
 .weekends div {
     width: 14.28%;
@@ -101,7 +103,7 @@ body{
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
 
     .screen-container {
         display: flex;
@@ -120,12 +122,16 @@ body{
     box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
 }
    .months{
+    background-color: #c14717;
     
-    background-color: rgb(11, 4, 2);
     width: 100%;
-   font-size: 10px;
+    font-size: 10px;
     padding: 10px 10px;
+  
     
+}
+.weekends{
+    background-color:#b65833;
 }
 .weekends div {
     width: 14.28%;
